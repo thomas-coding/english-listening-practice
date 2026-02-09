@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-09",
+  "sources": {
+    "daily": {
+      "path": "D:\\邬金平\\pod\\daily",
+      "files": 1307,
+      "mp3": 1305,
+      "pdf": 2,
+      "mp3_hours": 391.5,
+      "notes": "Episodes 0001-1305 complete; learner already listened to first 15."
+    },
+    "englishpod": {
+      "path": "D:\\邬金平\\englishpod",
+      "files": 1655,
+      "mp3": 1093,
+      "pdf": 560,
+      "txt": 2,
+      "mp3_hours": 122.1,
+      "notes": "Strong structured triad (pb/rv/dg) for many episodes."
+    },
+    "fresh_off_the_boat": {
+      "path": "D:\\邬金平\\初来乍到",
+      "files": 443,
+      "mkv": 118,
+      "mp3": 116,
+      "pdf": 100,
+      "lrc": 79,
+      "docx": 30,
+      "mp3_hours": 41.2,
+      "notes": "Learner watched S01E01 first ~10 minutes."
+    },
+    "desperate_housewives": {
+      "path": "D:\\邬金平\\绝望主妇",
+      "files": 1460,
+      "mkv": 178,
+      "mp3": 180,
+      "lrc": 180,
+      "txt": 360,
+      "docx": 360,
+      "pdf": 27,
+      "mp3_hours": 128.8,
+      "notes": "Learner watched episode 1-2 once with subtitles."
+    },
+    "burgers": {
+      "path": "D:\\邬金平\\汉堡店\\burgers",
+      "files": 1903,
+      "mp4": 714,
+      "mkv": 287,
+      "mp3": 285,
+      "srt": 235,
+      "pdf": 382,
+      "mp3_hours": 104.3,
+      "notes": "Large and rich corpus, needs difficulty filtering first."
+    },
+    "youtube": {
+      "path": "online",
+      "notes": "Final transfer target; to be integrated after controlled foundation."
+    }
+  }
+}

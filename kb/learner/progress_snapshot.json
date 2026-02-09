@@ -1,0 +1,53 @@
+{
+  "version": "1.1",
+  "schema_version": "2026-02-09-v1.1",
+  "last_updated": "2026-02-09",
+  "project_phase": "kb_v1_1_reviewed_waiting_confirmation",
+  "vision": "Understand ordinary YouTube videos without subtitles smoothly.",
+  "learner": {
+    "age": 42,
+    "gender": "male",
+    "baseline_level": "CET4_pass"
+  },
+  "prior_exposure": {
+    "daily_completed_until": 15,
+    "fresh_off_the_boat_watch_progress": "S01E01 first ~10 minutes",
+    "desperate_housewives_watch_progress": "S01E01-02 watched once with subtitles"
+  },
+  "current_focus": [
+    "Build persistent mentor knowledge base",
+    "Establish 30-minute adaptive lesson engine",
+    "Prepare playback operations in CLI workflow"
+  ],
+  "quality_status": {
+    "anti_drift_enabled": true,
+    "fixed_benchmark_suite_enabled": true,
+    "regression_alert": false,
+    "last_benchmark_date": null,
+    "last_system_review": "2026-02-09",
+    "data_integrity_pending": false,
+    "kb_health_score": 82
+  },
+  "ops_status": {
+    "media_playback_skill_reviewed": true,
+    "preferred_playback_mode": "media_playback_skill_scripts",
+    "notes": "Use play_media.py/find_youtube.py/extract_segment_subtitles.py as primary playback operations."
+  },
+  "metrics": {
+    "total_lessons_completed": 0,
+    "weekly_consistency_days": 0,
+    "latest_lesson_score": null,
+    "rolling_7d_avg_score": null,
+    "top_weakness_tags": []
+  },
+  "next_actions": [
+    "Confirm reviewed KB architecture with learner",
+    "Run mentor self-learning pass #1",
+    "Design and deliver trial lesson #1"
+  ],
+  "deprecated_docs": [
+    "archive/废弃_30天听力执行手册.md",
+    "archive/废弃_每日执行与打卡模板.md",
+    "archive/废弃_00_会话迁移说明.md"
+  ]
+}
