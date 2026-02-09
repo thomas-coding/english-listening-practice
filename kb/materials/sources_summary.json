@@ -40,7 +40,7 @@
       "docx": 360,
       "pdf": 27,
       "mp3_hours": 128.8,
-      "notes": "Learner watched episode 1-2 once with subtitles."
+      "notes": "Learner watched episode 1-2 once with subtitles. Pass#1 validation: detected video episodes have full transcript support (0 missing against detected videos)."
     },
     "burgers": {
       "path": "D:\\邬金平\\汉堡店\\burgers",
@@ -51,11 +51,11 @@
       "srt": 235,
       "pdf": 382,
       "mp3_hours": 104.3,
-      "notes": "Large and rich corpus, needs difficulty filtering first."
+      "notes": "Large and rich corpus, needs difficulty filtering first. Pass#1 validation: subtitle gaps include S08E11-12 and full-season gaps in S13-S15 (50 missing total)."
     },
     "youtube": {
       "path": "online",
-      "notes": "Final transfer target; to be integrated after controlled foundation."
+      "notes": "Final transfer target; validated pool expanded to 30 clips with Y1-Y4 balance (pass14)."
     }
   }
 }

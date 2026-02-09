@@ -18,7 +18,7 @@
 10. `kb/operations/gap_handling_rules.md`
 
 ## Current project status
-- Phase: `KB architecture reviewed to v1.1, awaiting user confirmation`
-- Next action after confirmation: start mentor self-learning pass #1 and fill material notes incrementally.
+- Phase: `lesson data loop active (passes 1-16 completed; lessons #1-#2 done)`
+- Next action: deliver lesson #3 and continue KPI trace accumulation to lesson #5.
 - Quality mode: `anti-drift and regression checks enabled`
-- System maturity note: `v1.1 review applied (stage-gates + KPI + gap handling + backup protocol)`
+- System maturity note: `material intelligence is ready for execution; KPI/review loop has started`

@@ -1,10 +1,38 @@
 {
-  "version": "1.0",
+  "version": "1.2",
   "last_updated": "2026-02-09",
   "stats": {
     "known": 0,
-    "learning": 0,
+    "learning": 3,
     "unknown": 0
   },
-  "items": []
+  "items": [
+    {
+      "term": "harassment",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "learning",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-10",
+      "correct_streak": 0,
+      "error_note": "Spelling + meaning; learner guessed from fragment ('ass')"
+    },
+    {
+      "term": "local call",
+      "source": "FOTB S02E01 09:38-10:45",
+      "status": "learning",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-10",
+      "correct_streak": 0,
+      "error_note": "Meaning unclear in context (hotel phone charge)."
+    },
+    {
+      "term": "room service",
+      "source": "FOTB S02E01 15:30-16:10",
+      "status": "learning",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-10",
+      "correct_streak": 0,
+      "error_note": "Could not decode in no-sub first pass."
+    }
+  ]
 }

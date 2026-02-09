@@ -23,3 +23,17 @@
 - Workaround: proceed with selected URL when returned; use direct `play_media.py` on known URLs.
 - Permanent fix: tune yt-dlp runtime/config if warnings become blocking.
 - Status: open.
+
+### 2026-02-09
+- Issue: `find_youtube.py` can hit terminal encoding errors on GBK when titles include special symbols.
+- Impact: query command may crash before printing selected result.
+- Workaround: run with `python -X utf8`.
+- Permanent fix: enforce UTF-8 output mode in script wrapper.
+- Status: mitigated.
+
+### 2026-02-09
+- Issue: selected YouTube candidate may exceed requested duration bounds in some queries.
+- Impact: out-of-range clips can enter candidate list if not manually checked.
+- Workaround: manual validation against ladder duration constraints and reject outliers.
+- Permanent fix: tighten post-filter logic in `find_youtube.py` workflow.
+- Status: open.

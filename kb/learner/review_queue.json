@@ -1,5 +1,136 @@
 {
-  "version": "1.0",
+  "version": "1.2",
   "last_updated": "2026-02-09",
-  "items": []
+  "items": [
+    {
+      "item_id": "v_harassment_fotb_s01e05",
+      "item_type": "vocab",
+      "term": "harassment",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_give_eddie_some_time",
+      "item_type": "chunk",
+      "chunk": "give Eddie some time with his friends",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-11",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_you_two_play_in_here",
+      "item_type": "chunk",
+      "chunk": "you two play in here",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-11",
+      "priority": "medium"
+    },
+    {
+      "item_id": "c_too_much_price_refusal",
+      "item_type": "chunk",
+      "chunk": "too much",
+      "source": "FOTB S01E01 00:33-00:55",
+      "status": "building",
+      "recall_quality": 4,
+      "next_due_date": "2026-02-11",
+      "priority": "medium"
+    },
+    {
+      "item_id": "e_opening_multi_speaker_miss",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_opening_multi_speaker_miss",
+      "source": "FOTB S01E05 10:00-10:25",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "high"
+    },
+    {
+      "item_id": "e_vocab_fragment_guessing",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_vocab_fragment_guessing",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "medium"
+    },
+    {
+      "item_id": "v_local_call_fotb_s02e01",
+      "item_type": "vocab",
+      "term": "local call",
+      "source": "FOTB S02E01 09:38-10:45",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "high"
+    },
+    {
+      "item_id": "v_room_service_fotb_s02e01",
+      "item_type": "vocab",
+      "term": "room service",
+      "source": "FOTB S02E01 15:30-16:10",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_get_our_moneys_worth",
+      "item_type": "chunk",
+      "chunk": "get our money's worth",
+      "source": "FOTB S02E01 09:38-10:10",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-11",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_as_long_as_you_dont_mind",
+      "item_type": "chunk",
+      "chunk": "as long as you don't mind",
+      "source": "FOTB S02E01 10:12-10:28",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-11",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_in_charge_of_the_vacation",
+      "item_type": "chunk",
+      "chunk": "I'm in charge of the vacation now",
+      "source": "FOTB S02E01 15:39-15:42",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-11",
+      "priority": "medium"
+    },
+    {
+      "item_id": "e_visual_overreliance_for_gist",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_visual_overreliance_for_gist",
+      "source": "FOTB S02E01 09:30-11:00",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "medium"
+    },
+    {
+      "item_id": "e_fixed_expression_gap",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_fixed_expression_gap",
+      "source": "FOTB S02E01 09:38-10:45",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-10",
+      "priority": "high"
+    }
+  ]
 }

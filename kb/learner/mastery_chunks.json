@@ -1,10 +1,65 @@
 {
-  "version": "1.0",
+  "version": "1.2",
   "last_updated": "2026-02-09",
   "stats": {
     "stable": 0,
-    "building": 0,
-    "new": 0
+    "building": 1,
+    "new": 5
   },
-  "items": []
+  "items": [
+    {
+      "chunk": "give Eddie some time with his friends",
+      "function": "request_boundary",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "you two play in here",
+      "function": "instruction",
+      "source": "FOTB S01E05 10:00-10:55",
+      "status": "new",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "too much",
+      "function": "refusal_price",
+      "source": "FOTB S01E01 00:33-00:55",
+      "status": "building",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "get our money's worth",
+      "function": "value_optimization",
+      "source": "FOTB S02E01 09:38-10:10",
+      "status": "new",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "as long as you don't mind",
+      "function": "conditional_softener",
+      "source": "FOTB S02E01 10:12-10:28",
+      "status": "new",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "I'm in charge of the vacation now",
+      "function": "assert_control",
+      "source": "FOTB S02E01 15:39-15:42",
+      "status": "new",
+      "last_seen": "2026-02-09",
+      "next_review": "2026-02-11",
+      "usage_success_count": 1
+    }
+  ]
 }

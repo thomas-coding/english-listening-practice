@@ -8,8 +8,9 @@
    - rolling_7d_avg_score
    - top_weakness_tags (if known)
 3. Update `kb/learner/review_queue.json`:
-   - add new items (unknown chunks/words, repeated error patterns)
-   - update due dates
+    - add new items (unknown chunks/words, repeated error patterns)
+    - update due dates
+   - follow `kb/operations/review_scheduler_rules.md`
 4. Update mastery trackers:
    - `kb/learner/mastery_vocab.json`
    - `kb/learner/mastery_chunks.json`

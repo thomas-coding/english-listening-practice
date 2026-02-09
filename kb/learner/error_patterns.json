@@ -1,5 +1,51 @@
 {
-  "version": "1.0",
+  "version": "1.2",
   "last_updated": "2026-02-09",
-  "patterns": []
+  "patterns": [
+    {
+      "pattern_id": "ep_opening_multi_speaker_miss",
+      "type": "linking_miss",
+      "examples": [
+        "FOTB S01E05 10:00-10:25 opening dialogue mostly missed in no-sub first pass.",
+        "FOTB S02E01 09:30-09:55 first-pass opening remained largely unclear in no-sub mode."
+      ],
+      "count_total": 2,
+      "count_last_30d": 2,
+      "last_seen": "2026-02-09",
+      "priority": "high"
+    },
+    {
+      "pattern_id": "ep_vocab_fragment_guessing",
+      "type": "vocab_gap",
+      "examples": [
+        "harassment was guessed as 'assasment' based on word fragment, not full decode."
+      ],
+      "count_total": 1,
+      "count_last_30d": 1,
+      "last_seen": "2026-02-09",
+      "priority": "medium"
+    },
+    {
+      "pattern_id": "ep_visual_overreliance_for_gist",
+      "type": "inference_gap",
+      "examples": [
+        "FOTB S02E01 09:30-11:00 gist was guessed mainly from video cues while audio decode remained weak."
+      ],
+      "count_total": 1,
+      "count_last_30d": 1,
+      "last_seen": "2026-02-09",
+      "priority": "medium"
+    },
+    {
+      "pattern_id": "ep_fixed_expression_gap",
+      "type": "vocab_gap",
+      "examples": [
+        "local call and room service meanings were unclear before guided repair; formulaic phrases not yet consolidated."
+      ],
+      "count_total": 1,
+      "count_last_30d": 1,
+      "last_seen": "2026-02-09",
+      "priority": "high"
+    }
+  ]
 }

@@ -9,14 +9,14 @@
 6. YouTube
 
 ## Current analysis coverage (mentor-side)
-- daily: 70% (structure and duration mapped; deep topic ladder pending)
-- englishpod: 75% (structure and component usage mapped; sequence map pending)
-- 初来乍到: 72% (media coverage and speed signals mapped; pedagogy map pending)
-- 绝望主妇: 35% (inventory mapped; lesson entry strategy pending)
-- burgers: 35% (inventory mapped; lesson entry strategy pending)
-- YouTube: 20% (transfer framework drafted, channel ladder pending)
+- daily: 90% (first-30 progression map with topic/tier tags drafted)
+- englishpod: 93% (first-30 PB/RV/DG sequence with topic/tier tags drafted)
+- 初来乍到: 96% (A/B/C tiers + timestamped starter micro-tags drafted)
+- 绝望主妇: 76% (coverage validated + starter timestamp clips drafted)
+- burgers: 78% (subtitle gaps mapped + starter timestamp clips drafted)
+- YouTube: 88% (channel ladder + first-30 validated pool completed)
 
 ## Priority for next mentor-learning pass
-1. Build first-pass lesson entry map for `绝望主妇` and `burgers`.
-2. Build difficulty tags for `daily` and `englishpod` episodes used in first 10 lessons.
-3. Build YouTube transfer ladder with controlled no-sub targets.
+1. Assemble trial lesson #1 using timestamped sitcom clips + controlled warmup.
+2. Prepare benchmark mini-set material picks across controlled/bridge/authentic layers.
+3. Add YouTube clip quality tags (`accent`, `speaker_count`, `subtitle_reliability`) for routing.

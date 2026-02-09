@@ -1,0 +1,280 @@
+{
+  "version": "1.1",
+  "last_updated": "2026-02-09",
+  "target_pool_size": 30,
+  "validated_count": 30,
+  "accepted_count": 29,
+  "rejected_count": 1,
+  "items": [
+    {
+      "id": "yt_001",
+      "target_level": "Y2",
+      "title": "Simple Daily Routine English | Slow Listening & Speaking Practice for Beginners | Daily English",
+      "url": "https://www.youtube.com/watch?v=ATc5ikVqank",
+      "duration_sec": 679,
+      "status": "provisional_pass",
+      "note": "Slightly above Y2 preferred upper bound"
+    },
+    {
+      "id": "yt_002",
+      "target_level": "Y1",
+      "title": "40 English Phrases You Need for Online Meetings",
+      "url": "https://www.youtube.com/watch?v=PLhAzAymMsY",
+      "duration_sec": 314,
+      "status": "pass",
+      "note": "Good Y1 duration and workplace relevance"
+    },
+    {
+      "id": "yt_003",
+      "target_level": "Y3",
+      "title": "A Simple Way to Break a Bad Habit | Judson Brewer | TED",
+      "url": "https://www.youtube.com/watch?v=-moW9jvvMr4",
+      "duration_sec": 565,
+      "status": "pass",
+      "note": "Y3-length explainer"
+    },
+    {
+      "id": "yt_004",
+      "target_level": "Y2",
+      "title": "Top 5 Tips to Improve Communication Skills | Soft Skills For Beginners | Soft Skills | Simplilearn",
+      "url": "https://www.youtube.com/watch?v=pJ7RgUCEd5M",
+      "duration_sec": 355,
+      "status": "pass",
+      "note": "Good Y2 communication topic"
+    },
+    {
+      "id": "yt_005",
+      "target_level": "Y3",
+      "title": "Every Political Ideology Explained in 8 Minutes",
+      "url": "https://www.youtube.com/watch?v=9cz4ikFcwMY",
+      "duration_sec": 494,
+      "status": "provisional_pass",
+      "note": "Topic density may be high"
+    },
+    {
+      "id": "yt_006",
+      "target_level": "Y3",
+      "title": "Give me 9min, and I'll improve your storytelling skills by 176%",
+      "url": "https://www.youtube.com/watch?v=hNuAv-42jzY",
+      "duration_sec": 538,
+      "status": "pass",
+      "note": "Within Y3 duration target"
+    },
+    {
+      "id": "yt_007",
+      "target_level": "Y4",
+      "title": "REAL English Conversation | FAST English!",
+      "url": "https://www.youtube.com/watch?v=jBUSWWM0JO4",
+      "duration_sec": 614,
+      "status": "pass",
+      "note": "Natural-speed conversation"
+    },
+    {
+      "id": "yt_008",
+      "target_level": "Y4",
+      "title": "10 Minutes to Improve English Speaking Skills Efficiently | English Speaking Conversations",
+      "url": "https://www.youtube.com/watch?v=aOLsQN98aI4",
+      "duration_sec": 675,
+      "status": "pass",
+      "note": "Y4 duration fit"
+    },
+    {
+      "id": "yt_009",
+      "target_level": "Y2",
+      "title": "Repeat-After-Me Speaking Practice with a fun little story",
+      "url": "https://www.youtube.com/watch?v=6E7i_7Mr_5c",
+      "duration_sec": 369,
+      "status": "pass",
+      "note": "Y2 bridge clip"
+    },
+    {
+      "id": "yt_010",
+      "target_level": "Y4",
+      "title": "English Listening Practice #1 - Real Native Conversation (B2-C1)",
+      "url": "https://www.youtube.com/watch?v=6PJnEdbq8qc",
+      "duration_sec": 1675,
+      "status": "reject",
+      "note": "Too long for current ladder constraints"
+    },
+    {
+      "id": "yt_011",
+      "target_level": "Y1",
+      "title": "My Morning Routine | Slow English Listening Practice for Beginners (A2)",
+      "url": "https://www.youtube.com/watch?v=bRysNHKSxDo",
+      "duration_sec": 203,
+      "status": "pass",
+      "note": "Good Y1 duration and clear single-speaker delivery"
+    },
+    {
+      "id": "yt_012",
+      "target_level": "Y1",
+      "title": "Business English Conversations | ESL Business Meeting Conversation",
+      "url": "https://www.youtube.com/watch?v=z-8o9sp8YIA",
+      "duration_sec": 205,
+      "status": "pass",
+      "note": "Compact workplace dialog fits Y1 control target"
+    },
+    {
+      "id": "yt_013",
+      "target_level": "Y1",
+      "title": "A1 English Listening Practice - Language Learning",
+      "url": "https://www.youtube.com/watch?v=erjMgola4fQ",
+      "duration_sec": 223,
+      "status": "pass",
+      "note": "Entry-safe length and pace for first-pass no-sub attempts"
+    },
+    {
+      "id": "yt_014",
+      "target_level": "Y1",
+      "title": "A2 English Listening Practice - Travel",
+      "url": "https://www.youtube.com/watch?v=gOMypAhVaXE",
+      "duration_sec": 212,
+      "status": "pass",
+      "note": "Travel topic with predictable vocabulary band"
+    },
+    {
+      "id": "yt_015",
+      "target_level": "Y1",
+      "title": "What do you do every day? Easy English Conversations Episode 4",
+      "url": "https://www.youtube.com/watch?v=bq6GBbh3uhU",
+      "duration_sec": 297,
+      "status": "pass",
+      "note": "Upper-bound Y1 length; suitable as bridge into Y2"
+    },
+    {
+      "id": "yt_016",
+      "target_level": "Y2",
+      "title": "How the food you eat affects your brain - Mia Nacamulli",
+      "url": "https://www.youtube.com/watch?v=xyQY8a-ng6g",
+      "duration_sec": 292,
+      "status": "provisional_pass",
+      "note": "Duration fits Y2 but concept density should be monitored"
+    },
+    {
+      "id": "yt_017",
+      "target_level": "Y2",
+      "title": "The Easiest Way to Improve Your English Listening Skills",
+      "url": "https://www.youtube.com/watch?v=uDVoZ39mONk",
+      "duration_sec": 339,
+      "status": "pass",
+      "note": "Clear pedagogical structure and stable pace"
+    },
+    {
+      "id": "yt_018",
+      "target_level": "Y2",
+      "title": "The 3-2-1 Speaking Trick That Forces You To Stop Rambling!",
+      "url": "https://www.youtube.com/watch?v=5m-C5mwpmxU",
+      "duration_sec": 328,
+      "status": "pass",
+      "note": "Practical communication topic and manageable speed"
+    },
+    {
+      "id": "yt_019",
+      "target_level": "Y2",
+      "title": "English Conversation At the Office - Speaking English at Workplace",
+      "url": "https://www.youtube.com/watch?v=dzA7nL6cicY",
+      "duration_sec": 346,
+      "status": "pass",
+      "note": "Workplace context supports transfer from controlled sources"
+    },
+    {
+      "id": "yt_020",
+      "target_level": "Y2",
+      "title": "English Rewind - 6 Minute English: Self help",
+      "url": "https://www.youtube.com/watch?v=5rlC_oUe3zo",
+      "duration_sec": 390,
+      "status": "pass",
+      "note": "BBC-style delivery at upper Y2 duration bound"
+    },
+    {
+      "id": "yt_021",
+      "target_level": "Y3",
+      "title": "CYBER SECURITY explained in 8 Minutes",
+      "url": "https://www.youtube.com/watch?v=zYLkdT731x8",
+      "duration_sec": 488,
+      "status": "pass",
+      "note": "Length and pace fit Y3 explainer profile"
+    },
+    {
+      "id": "yt_022",
+      "target_level": "Y3",
+      "title": "Love Explained in 9 Minutes",
+      "url": "https://www.youtube.com/watch?v=_KOpLEcN2-g",
+      "duration_sec": 548,
+      "status": "pass",
+      "note": "Long-form monologue suitable for Y3 detail capture practice"
+    },
+    {
+      "id": "yt_023",
+      "target_level": "Y3",
+      "title": "Supply and Demand in 8 Minutes",
+      "url": "https://www.youtube.com/watch?v=kIFBaaPJUO0",
+      "duration_sec": 471,
+      "status": "provisional_pass",
+      "note": "Useful explainer format but term density can spike"
+    },
+    {
+      "id": "yt_024",
+      "target_level": "Y3",
+      "title": "Every Networking Concept Explained In 8 Minutes",
+      "url": "https://www.youtube.com/watch?v=vtUHgkTKju0",
+      "duration_sec": 483,
+      "status": "provisional_pass",
+      "note": "Duration fits Y3; technical terminology risk"
+    },
+    {
+      "id": "yt_025",
+      "target_level": "Y3",
+      "title": "Every Level of Intelligence Explained in 9 Minutes",
+      "url": "https://www.youtube.com/watch?v=9_cC-zt5yhc",
+      "duration_sec": 559,
+      "status": "provisional_pass",
+      "note": "Concept-heavy content; keep as controlled challenge"
+    },
+    {
+      "id": "yt_026",
+      "target_level": "Y4",
+      "title": "How I Learned To Speak Clearly (English is my 3rd Language!)",
+      "url": "https://www.youtube.com/watch?v=BAJMNQXzrgg",
+      "duration_sec": 550,
+      "status": "pass",
+      "note": "Natural-speed monologue in Y4 duration range"
+    },
+    {
+      "id": "yt_027",
+      "target_level": "Y4",
+      "title": "Learn English Small Talk to use at Work and with Friends, Family and Strangers",
+      "url": "https://www.youtube.com/watch?v=4zXys7i8Zrc",
+      "duration_sec": 532,
+      "status": "pass",
+      "note": "Multi-context dialogue patterns for robustness drills"
+    },
+    {
+      "id": "yt_028",
+      "target_level": "Y4",
+      "title": "Why you can't understand native English speakers.",
+      "url": "https://www.youtube.com/watch?v=5TBvIfvUTGs",
+      "duration_sec": 630,
+      "status": "pass",
+      "note": "Longer natural-speed explanation; good Y4 stamina target"
+    },
+    {
+      "id": "yt_029",
+      "target_level": "Y4",
+      "title": "The secrets of learning a new language | Lydia Machova | TED",
+      "url": "https://www.youtube.com/watch?v=o_XVt5rdpFY",
+      "duration_sec": 646,
+      "status": "pass",
+      "note": "Authentic TED delivery for high-end Y4 practice"
+    },
+    {
+      "id": "yt_030",
+      "target_level": "Y4",
+      "title": "Social Media Corrupts Human Interactions | Jack Symonds | Part 1 of 6",
+      "url": "https://www.youtube.com/watch?v=5hCq0V_edbY",
+      "duration_sec": 660,
+      "status": "provisional_pass",
+      "note": "Near Y4 upper bound; topic abstraction may require guided repair"
+    }
+  ]
+}

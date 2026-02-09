@@ -13,6 +13,9 @@
 2. Record scores in `kb/qa/regression_scorecard.json`.
 3. Compare against previous month.
 
+## Rehearsal before first formal benchmark
+- Use `kb/qa/benchmark_mini_rehearsal_protocol.md` to verify pipeline reliability.
+
 ## Metrics
 - Gist accuracy (%).
 - Detail capture (%).

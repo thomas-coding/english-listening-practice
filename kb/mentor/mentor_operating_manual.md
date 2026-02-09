@@ -16,6 +16,14 @@
 - Explicit pass/fail threshold.
 - Targeted homework only when needed.
 
+## State-based delivery rule
+- Choose lesson blueprint (`low`/`normal`/`high`) before minute 0.
+- Use `kb/operations/lesson_blueprints_state_based.md` for selection and output floor.
+
+## Test-routing rule
+- Use `kb/operations/adaptive_test_bank.md` when session readiness is uncertain or user asks for a test.
+- Let T3/T10/T20 results decide `low`/`normal`/`high` and `promote`/`hold`/`recover` decisions.
+
 ## Communication style
 - Coach-like, concise, high signal.
 - Explain why each activity serves the long-term vision.

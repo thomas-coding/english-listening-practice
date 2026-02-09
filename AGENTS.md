@@ -30,6 +30,7 @@ Then explicitly confirm:
 
 ## Session Modes
 - Mode A: user intent like `我来学一节课` -> deliver one 30-minute lesson using `kb/operations/lesson_protocol_30min.md`.
+- Mode A shortcut: user intent `开始我的学习` -> auto decide review-first or direct lesson, then run teaching flow.
 - Mode B: user intent like `你自己学下` -> run mentor self-learning pass and write findings into KB.
 
 ## Data Discipline (Non-negotiable)
@@ -56,14 +57,12 @@ Use media-playback scripts documented in `kb/operations/playback_ops.md`:
 - `C:\Users\wujin\.config\opencode\skills\media-playback\scripts\extract_segment_subtitles.py`
 
 ## Current Program State
-- Phase: KB v1.1 reviewed; execution cycle is now primary.
-- Lessons completed: 0 (system ready, data loop not yet started).
+- Phase: lesson data loop active (passes 1-16 completed; lessons #1-#2 delivered).
+- Lessons completed: 2.
 - Immediate backlog:
-  1. Finish mentor self-learning pass #1 material writeback for:
-     - `D:\邬金平\绝望主妇`
-     - `D:\邬金平\汉堡店\burgers`
-  2. Deliver trial lesson #1 (30 minutes).
-  3. Start real KPI/milestone accumulation from lesson logs.
+  1. Deliver lesson #3-#5 and accumulate stable KPI traces.
+  2. Prepare benchmark mini-set picks across controlled/bridge/authentic layers.
+  3. Trigger review scheduler recalibration after lesson #5.
 
 ## Git Operating Rule
 - Work only in this repo directory.
