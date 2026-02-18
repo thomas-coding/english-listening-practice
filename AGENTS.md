@@ -57,10 +57,10 @@ Use media-playback scripts documented in `kb/operations/playback_ops.md`:
 - `C:\Users\wujin\.config\opencode\skills\media-playback\scripts\extract_segment_subtitles.py`
 
 ## Current Program State
-- Phase: lesson data loop active (passes 1-16 completed; lessons #1-#2 delivered).
-- Lessons completed: 2.
+- Phase: lesson data loop active (passes 1-16 completed; lessons #1-#3 delivered).
+- Lessons completed: 3.
 - Immediate backlog:
-  1. Deliver lesson #3-#5 and accumulate stable KPI traces.
+  1. Deliver lesson #4-#5 and accumulate stable KPI traces.
   2. Prepare benchmark mini-set picks across controlled/bridge/authentic layers.
   3. Trigger review scheduler recalibration after lesson #5.
 

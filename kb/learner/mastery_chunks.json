@@ -1,9 +1,9 @@
 {
-  "version": "1.2",
-  "last_updated": "2026-02-09",
+  "version": "1.3",
+  "last_updated": "2026-02-18",
   "stats": {
     "stable": 0,
-    "building": 1,
+    "building": 6,
     "new": 5
   },
   "items": [
@@ -13,7 +13,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
+      "next_review": "2026-02-20",
       "usage_success_count": 1
     },
     {
@@ -22,7 +22,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
+      "next_review": "2026-02-20",
       "usage_success_count": 1
     },
     {
@@ -31,25 +31,25 @@
       "source": "FOTB S01E01 00:33-00:55",
       "status": "building",
       "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
+      "next_review": "2026-02-21",
       "usage_success_count": 2
     },
     {
       "chunk": "get our money's worth",
       "function": "value_optimization",
       "source": "FOTB S02E01 09:38-10:10",
-      "status": "new",
-      "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
-      "usage_success_count": 1
+      "status": "building",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-23",
+      "usage_success_count": 2
     },
     {
       "chunk": "as long as you don't mind",
       "function": "conditional_softener",
       "source": "FOTB S02E01 10:12-10:28",
       "status": "new",
-      "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-19",
       "usage_success_count": 1
     },
     {
@@ -58,8 +58,53 @@
       "source": "FOTB S02E01 15:39-15:42",
       "status": "new",
       "last_seen": "2026-02-09",
-      "next_review": "2026-02-11",
+      "next_review": "2026-02-20",
       "usage_success_count": 1
+    },
+    {
+      "chunk": "happy and free",
+      "function": "state_description",
+      "source": "FOTB S02E01 17:22-17:27",
+      "status": "building",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-22",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "I love being on vacation",
+      "function": "positive_feeling",
+      "source": "FOTB S02E01 17:55-18:00",
+      "status": "building",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-23",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "I just wish we didn't have to go home",
+      "function": "regret_preference",
+      "source": "FOTB S02E01 18:00-18:04",
+      "status": "building",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-23",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "you enjoyed yourself",
+      "function": "experience_evaluation",
+      "source": "FOTB S02E01 18:07-18:10",
+      "status": "building",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-22",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "I take it you enjoyed your massage",
+      "function": "inference_statement",
+      "source": "FOTB S02E01 17:48-17:53",
+      "status": "new",
+      "last_seen": "2026-02-18",
+      "next_review": "2026-02-19",
+      "usage_success_count": 0
     }
   ]
 }

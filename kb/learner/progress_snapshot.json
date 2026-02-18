@@ -1,8 +1,8 @@
 {
   "version": "1.1",
   "schema_version": "2026-02-09-v1.1",
-  "last_updated": "2026-02-09",
-  "project_phase": "lesson_data_loop_active_after_lesson_2",
+  "last_updated": "2026-02-18",
+  "project_phase": "lesson_data_loop_active_after_lesson_3",
   "vision": "Understand ordinary YouTube videos without subtitles smoothly.",
   "learner": {
     "age": 42,
@@ -15,8 +15,8 @@
     "desperate_housewives_watch_progress": "S01E01-02 watched once with subtitles"
   },
   "current_focus": [
-    "Stabilize normal-state no-sub first pass on short sitcom clips",
-    "Reduce opening multi-speaker decode misses via targeted repair",
+    "Stabilize no-sub first pass with short audio-only segments",
+    "Consolidate high-frequency fixed expressions from sitcom bridge lessons",
     "Accumulate first 5 real lesson logs for scheduler recalibration"
   ],
   "quality_status": {
@@ -24,7 +24,7 @@
     "fixed_benchmark_suite_enabled": true,
     "regression_alert": false,
     "last_benchmark_date": null,
-    "last_system_review": "2026-02-09",
+    "last_system_review": "2026-02-18",
     "data_integrity_pending": false,
     "kb_health_score": 99
   },
@@ -34,18 +34,18 @@
     "notes": "Use play_media.py/find_youtube.py/extract_segment_subtitles.py as primary playback operations."
   },
   "metrics": {
-    "total_lessons_completed": 2,
+    "total_lessons_completed": 3,
     "weekly_consistency_days": 1,
-    "latest_lesson_score": 64,
-    "rolling_7d_avg_score": 67,
+    "latest_lesson_score": 68,
+    "rolling_7d_avg_score": 68,
     "top_weakness_tags": [
       "opening_segment_decode_gap",
-      "visual_overreliance_for_gist",
+      "audio_only_decode_lag",
       "fixed_expression_gap"
     ]
   },
   "next_actions": [
-    "Deliver lesson #3 with normal-state structure and shorter no-sub windows (start with D1 review)",
+    "Deliver lesson #4 with short no-sub audio windows and one bridge recap block",
     "Prepare benchmark mini-set material picks across controlled/bridge/authentic layers",
     "Accumulate first 5 real lessons and recalibrate review scheduler"
   ],

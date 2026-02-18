@@ -1,6 +1,6 @@
 {
-  "version": "1.2",
-  "last_updated": "2026-02-09",
+  "version": "1.3",
+  "last_updated": "2026-02-18",
   "items": [
     {
       "item_id": "v_harassment_fotb_s01e05",
@@ -9,7 +9,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-19",
       "priority": "high"
     },
     {
@@ -19,7 +19,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "recall_quality": 3,
-      "next_due_date": "2026-02-11",
+      "next_due_date": "2026-02-20",
       "priority": "high"
     },
     {
@@ -29,7 +29,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "recall_quality": 3,
-      "next_due_date": "2026-02-11",
+      "next_due_date": "2026-02-20",
       "priority": "medium"
     },
     {
@@ -39,7 +39,7 @@
       "source": "FOTB S01E01 00:33-00:55",
       "status": "building",
       "recall_quality": 4,
-      "next_due_date": "2026-02-11",
+      "next_due_date": "2026-02-21",
       "priority": "medium"
     },
     {
@@ -49,7 +49,7 @@
       "source": "FOTB S01E05 10:00-10:25",
       "status": "new",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-19",
       "priority": "high"
     },
     {
@@ -59,7 +59,7 @@
       "source": "FOTB S01E05 10:00-10:55",
       "status": "new",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-20",
       "priority": "medium"
     },
     {
@@ -67,9 +67,9 @@
       "item_type": "vocab",
       "term": "local call",
       "source": "FOTB S02E01 09:38-10:45",
-      "status": "new",
-      "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "status": "learning",
+      "recall_quality": 4,
+      "next_due_date": "2026-02-21",
       "priority": "high"
     },
     {
@@ -77,9 +77,9 @@
       "item_type": "vocab",
       "term": "room service",
       "source": "FOTB S02E01 15:30-16:10",
-      "status": "new",
+      "status": "learning",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-19",
       "priority": "high"
     },
     {
@@ -87,9 +87,9 @@
       "item_type": "chunk",
       "chunk": "get our money's worth",
       "source": "FOTB S02E01 09:38-10:10",
-      "status": "new",
-      "recall_quality": 3,
-      "next_due_date": "2026-02-11",
+      "status": "building",
+      "recall_quality": 4,
+      "next_due_date": "2026-02-23",
       "priority": "high"
     },
     {
@@ -98,8 +98,8 @@
       "chunk": "as long as you don't mind",
       "source": "FOTB S02E01 10:12-10:28",
       "status": "new",
-      "recall_quality": 3,
-      "next_due_date": "2026-02-11",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
       "priority": "high"
     },
     {
@@ -109,7 +109,7 @@
       "source": "FOTB S02E01 15:39-15:42",
       "status": "new",
       "recall_quality": 3,
-      "next_due_date": "2026-02-11",
+      "next_due_date": "2026-02-20",
       "priority": "medium"
     },
     {
@@ -119,7 +119,7 @@
       "source": "FOTB S02E01 09:30-11:00",
       "status": "new",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-21",
       "priority": "medium"
     },
     {
@@ -129,8 +129,118 @@
       "source": "FOTB S02E01 09:38-10:45",
       "status": "new",
       "recall_quality": 2,
-      "next_due_date": "2026-02-10",
+      "next_due_date": "2026-02-19",
       "priority": "high"
+    },
+    {
+      "item_id": "v_joy_fotb_s02e01",
+      "item_type": "vocab",
+      "term": "joy",
+      "source": "FOTB S02E01 16:56-17:02",
+      "status": "new",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-19",
+      "priority": "high"
+    },
+    {
+      "item_id": "v_weightless_fotb_s02e01",
+      "item_type": "vocab",
+      "term": "weightless",
+      "source": "FOTB S02E01 17:09-17:12",
+      "status": "learning",
+      "recall_quality": 3,
+      "next_due_date": "2026-02-20",
+      "priority": "high"
+    },
+    {
+      "item_id": "v_massage_fotb_s02e01",
+      "item_type": "vocab",
+      "term": "massage",
+      "source": "FOTB S02E01 17:48-18:00",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
+      "priority": "medium"
+    },
+    {
+      "item_id": "c_happy_and_free",
+      "item_type": "chunk",
+      "chunk": "happy and free",
+      "source": "FOTB S02E01 17:22-17:27",
+      "status": "building",
+      "recall_quality": 4,
+      "next_due_date": "2026-02-22",
+      "priority": "medium"
+    },
+    {
+      "item_id": "c_i_love_being_on_vacation",
+      "item_type": "chunk",
+      "chunk": "I love being on vacation",
+      "source": "FOTB S02E01 17:55-18:00",
+      "status": "building",
+      "recall_quality": 5,
+      "next_due_date": "2026-02-23",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_i_just_wish_we_didnt_have_to_go_home",
+      "item_type": "chunk",
+      "chunk": "I just wish we didn't have to go home",
+      "source": "FOTB S02E01 18:00-18:04",
+      "status": "building",
+      "recall_quality": 5,
+      "next_due_date": "2026-02-23",
+      "priority": "high"
+    },
+    {
+      "item_id": "c_enjoyed_yourself",
+      "item_type": "chunk",
+      "chunk": "you enjoyed yourself",
+      "source": "FOTB S02E01 18:07-18:10",
+      "status": "building",
+      "recall_quality": 4,
+      "next_due_date": "2026-02-22",
+      "priority": "medium"
+    },
+    {
+      "item_id": "c_i_take_it_you_enjoyed_your_massage",
+      "item_type": "chunk",
+      "chunk": "I take it you enjoyed your massage",
+      "source": "FOTB S02E01 17:48-17:53",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
+      "priority": "high"
+    },
+    {
+      "item_id": "e_audio_only_decode_lag",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_audio_only_decode_lag",
+      "source": "FOTB S02E01 17:40-18:20",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
+      "priority": "high"
+    },
+    {
+      "item_id": "e_keyword_without_scene_binding",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_keyword_without_scene_binding",
+      "source": "FOTB S02E01 16:31-17:55",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
+      "priority": "medium"
+    },
+    {
+      "item_id": "e_phrase_reduction_misparse",
+      "item_type": "error_pattern",
+      "pattern_id": "ep_phrase_reduction_misparse",
+      "source": "FOTB S02E01 17:48-17:53",
+      "status": "new",
+      "recall_quality": 2,
+      "next_due_date": "2026-02-19",
+      "priority": "medium"
     }
   ]
 }

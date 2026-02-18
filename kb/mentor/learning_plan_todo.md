@@ -47,7 +47,7 @@
 1. Pass #17: prepare benchmark mini-set picks after first lesson evidence.
 2. Pass #18: add YouTube clip quality tags for routing (`accent`, `speaker_count`, `subtitle_reliability`).
 3. Pass #19: recalibrate review scheduler after first 5 real lessons.
-4. Pass #20: run first benchmark mini-set after lesson #3.
+4. Pass #20: run first benchmark mini-set after lesson #4.
 
 ## Next mentor-learning pass trigger
 - User says: "你自己学下" or equivalent.

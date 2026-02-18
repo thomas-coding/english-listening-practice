@@ -18,7 +18,7 @@
 10. `kb/operations/gap_handling_rules.md`
 
 ## Current project status
-- Phase: `lesson data loop active (passes 1-16 completed; lessons #1-#2 done)`
-- Next action: deliver lesson #3 and continue KPI trace accumulation to lesson #5.
+- Phase: `lesson data loop active (passes 1-16 completed; lessons #1-#3 done)`
+- Next action: deliver lesson #4 and continue KPI trace accumulation to lesson #5.
 - Quality mode: `anti-drift and regression checks enabled`
 - System maturity note: `material intelligence is ready for execution; KPI/review loop has started`

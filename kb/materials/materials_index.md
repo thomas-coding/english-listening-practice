@@ -17,6 +17,6 @@
 - YouTube: 88% (channel ladder + first-30 validated pool completed)
 
 ## Priority for next mentor-learning pass
-1. Assemble trial lesson #1 using timestamped sitcom clips + controlled warmup.
-2. Prepare benchmark mini-set material picks across controlled/bridge/authentic layers.
-3. Add YouTube clip quality tags (`accent`, `speaker_count`, `subtitle_reliability`) for routing.
+1. Prepare benchmark mini-set material picks across controlled/bridge/authentic layers.
+2. Add YouTube clip quality tags (`accent`, `speaker_count`, `subtitle_reliability`) for routing.
+3. Expand sitcom timestamp packs for lesson #4-#5 variability.
