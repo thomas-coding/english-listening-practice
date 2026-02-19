@@ -26,3 +26,9 @@
 - Intervention: Added 24 timestamp-level starter clips across FOTB/DH/Burgers using subtitle-density windows.
 - Evidence: Each starter episode now has direct `start_end` clip slices and stable `clip_id` tags for logging.
 - Decision: Use these clips to launch trial lesson #1 and collect first real KPI traces.
+
+### 2026-02-18 (Pass #17)
+- Hypothesis: Preselected benchmark mini-set picks with explicit fallback routing will make first benchmark execution stable and comparable.
+- Intervention: Added fixed mini-set picks for controlled/bridge/authentic layers and defined local proxy fallback for YouTube instability.
+- Evidence: New picks file + rehearsal protocol updates now provide executable paths for both online and offline constraints.
+- Decision: Run first benchmark mini-set after lesson #4 using this pick set and log scorecard baseline.

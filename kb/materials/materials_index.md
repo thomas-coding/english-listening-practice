@@ -17,6 +17,6 @@
 - YouTube: 88% (channel ladder + first-30 validated pool completed)
 
 ## Priority for next mentor-learning pass
-1. Prepare benchmark mini-set material picks across controlled/bridge/authentic layers.
-2. Add YouTube clip quality tags (`accent`, `speaker_count`, `subtitle_reliability`) for routing.
-3. Expand sitcom timestamp packs for lesson #4-#5 variability.
+1. Add YouTube clip quality tags (`accent`, `speaker_count`, `subtitle_reliability`) for routing.
+2. Expand sitcom timestamp packs for lesson #4-#5 variability.
+3. Add benchmark fallback metadata (`authentic_proxy_local`) to relevant S2 entries.

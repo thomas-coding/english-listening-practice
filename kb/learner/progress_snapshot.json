@@ -2,7 +2,7 @@
   "version": "1.1",
   "schema_version": "2026-02-09-v1.1",
   "last_updated": "2026-02-18",
-  "project_phase": "lesson_data_loop_active_after_lesson_3",
+  "project_phase": "lesson_data_loop_active_after_lesson_3_pass17_ready",
   "vision": "Understand ordinary YouTube videos without subtitles smoothly.",
   "learner": {
     "age": 42,
@@ -17,6 +17,7 @@
   "current_focus": [
     "Stabilize no-sub first pass with short audio-only segments",
     "Consolidate high-frequency fixed expressions from sitcom bridge lessons",
+    "Execute first benchmark mini-set with online/offline authentic routing",
     "Accumulate first 5 real lesson logs for scheduler recalibration"
   ],
   "quality_status": {
@@ -46,7 +47,7 @@
   },
   "next_actions": [
     "Deliver lesson #4 with short no-sub audio windows and one bridge recap block",
-    "Prepare benchmark mini-set material picks across controlled/bridge/authentic layers",
+    "Run first benchmark mini-set after lesson #4 using pass17 pick set",
     "Accumulate first 5 real lessons and recalibrate review scheduler"
   ],
   "deprecated_docs": [

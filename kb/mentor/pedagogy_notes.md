@@ -54,6 +54,10 @@
 - Select clip by ladder level first, then by topic relevance; never invert this order.
 - If YouTube first-pass gist fails twice in a row, execute one controlled recovery lesson before next YouTube attempt.
 
+## Benchmark routing rule
+- For benchmark mini-set, keep YouTube as authentic primary but predefine one local proxy fallback.
+- If network blocks YouTube execution, run local proxy for pipeline check and mark benchmark status as `pending_online_authentic`.
+
 ## YouTube pool routing rule
 - Keep at least 5 validated candidates per ladder level (Y1-Y4) to avoid repeated exposure fatigue.
 - In each level, route with a 3:1 mix of `pass` to `provisional_pass` clips so challenge stays controlled.

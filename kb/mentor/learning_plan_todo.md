@@ -1,7 +1,7 @@
 # Mentor Self-Learning Plan (TODO)
 
 ## Overall progress
-- Estimated completion of mentor KB maturity: 96%.
+- Estimated completion of mentor KB maturity: 97%.
 - Meaning: architecture is stable; material intelligence and lesson-engine details are now the main gap.
 
 ## Execution policy (expert growth)
@@ -43,11 +43,14 @@
 - [x] Define fallback protocol when transfer breaks.
 - [x] Expand validated YouTube pool from 10 to 30 clips with Y1-Y4 balance.
 
+## Phase 5: Benchmark readiness
+- [x] Prepare benchmark mini-set picks after first lesson evidence.
+
 ## Pass backlog (next 4 passes)
-1. Pass #17: prepare benchmark mini-set picks after first lesson evidence.
-2. Pass #18: add YouTube clip quality tags for routing (`accent`, `speaker_count`, `subtitle_reliability`).
-3. Pass #19: recalibrate review scheduler after first 5 real lessons.
-4. Pass #20: run first benchmark mini-set after lesson #4.
+1. Pass #18: add YouTube clip quality tags for routing (`accent`, `speaker_count`, `subtitle_reliability`).
+2. Pass #19: recalibrate review scheduler after first 5 real lessons.
+3. Pass #20: run first benchmark mini-set after lesson #4.
+4. Pass #21: tune benchmark-to-lesson feedback loop from first mini-set evidence.
 
 ## Next mentor-learning pass trigger
 - User says: "你自己学下" or equivalent.

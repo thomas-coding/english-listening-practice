@@ -5,6 +5,9 @@
 - Ensure controlled/bridge/authentic layers are all testable in current workflow.
 
 ## Mini-set composition (3 tasks)
+Use preselected picks from:
+- `kb/qa/benchmark_mini_set_picks_pass17.md`
+
 1. Controlled layer (S0 style)
    - Source: `daily` or `englishpod` E1/E2.
    - Clip length: 60-90 seconds.
@@ -14,6 +17,7 @@
 3. Authentic layer (S2/S3 transition)
    - Source: YouTube validated pool (`kb/materials/youtube_clip_validation_pass10.md`).
    - Clip length: 90-150 seconds.
+   - If YouTube is unavailable, use one local `authentic_proxy_local` fallback and mark it in scorecard notes.
 
 ## Rehearsal steps (single run)
 1. Run no-sub first pass for each task.
@@ -31,6 +35,9 @@
   - log issue in `kb/operations/issue_log.md`,
   - swap to fallback material from same layer,
   - rerun rehearsal within next mentor-learning pass.
+- If authentic YouTube task fails only because of network instability:
+  - run local proxy fallback to complete pipeline check,
+  - keep official benchmark run pending until YouTube task is executable.
 
 ## Notes
 - Rehearsal does not replace official monthly benchmark tracking.

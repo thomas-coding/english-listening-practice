@@ -37,3 +37,10 @@
 - Workaround: manual validation against ladder duration constraints and reject outliers.
 - Permanent fix: tighten post-filter logic in `find_youtube.py` workflow.
 - Status: open.
+
+### 2026-02-18
+- Issue: YouTube accessibility can be unstable during benchmark or lesson delivery.
+- Impact: authentic-layer task may fail even when local pipeline is healthy.
+- Workaround: use `authentic_proxy_local` fallback from benchmark picks file to keep pipeline test executable.
+- Permanent fix: keep YouTube as primary target but maintain dual-path benchmark routing (online primary + local proxy fallback).
+- Status: mitigated.

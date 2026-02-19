@@ -25,4 +25,5 @@
 
 ## Baseline state
 - No benchmark completed yet.
-- First benchmark should run after first 3 real lessons.
+- Mini-set picks are prepared in `kb/qa/benchmark_mini_set_picks_pass17.md`.
+- First benchmark should run after lesson #4 (first post-gap stabilization lesson).
