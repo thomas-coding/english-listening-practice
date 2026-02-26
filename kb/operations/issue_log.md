@@ -44,3 +44,31 @@
 - Workaround: use `authentic_proxy_local` fallback from benchmark picks file to keep pipeline test executable.
 - Permanent fix: keep YouTube as primary target but maintain dual-path benchmark routing (online primary + local proxy fallback).
 - Status: mitigated.
+
+### 2026-02-19
+- Issue: Very short repair clips can cut off target sentence endings.
+- Impact: learner may miss key phrase even with subtitles and report false comprehension failure.
+- Workaround: add +3 to +5 seconds tail buffer for repair replay windows.
+- Permanent fix: standardize repair slice rule (`target sentence end + 4s`) in lesson assembly routine.
+- Status: mitigated.
+
+### 2026-02-20
+- Issue: Requested English subtitle playback can occasionally display Chinese subtitles in some MKV files.
+- Impact: repair tasks may become easier than intended and bias benchmark consistency.
+- Workaround: when subtitle track is unreliable, switch repair mode to audio-only + explicit text anchors.
+- Permanent fix: add subtitle-stream verification step before playback and lock English track index.
+- Status: open.
+
+### 2026-02-20
+- Issue: Learner-line waiting can become too long if backend writeback/prep runs inline during live interaction.
+- Impact: breaks learning continuity and increases cognitive drop-off.
+- Workaround: enforce dual-track runtime; defer heavy tasks to teacher line.
+- Permanent fix: prebuild next 2-3 lessons and keep learner-line latency contract active.
+- Status: mitigated.
+
+### 2026-02-26
+- Issue: `extract_segment_subtitles.py` in `auto` mode may rely on Whisper for local MP3 and skip sidecar `.lrc`, producing noisy prep snippets.
+- Impact: target-sentence anchors can drift, increasing repair mis-cut risk.
+- Workaround: teacher line pre-extracts snippets from sidecar `.lrc` and writes them into lesson package files.
+- Permanent fix: update extractor to prioritize sidecar `.lrc/.srt` before Whisper in `auto` mode.
+- Status: open.

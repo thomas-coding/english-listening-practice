@@ -73,3 +73,16 @@
 ## Timestamp slice rule
 - Use predefined `start_end` windows first to reduce setup overhead and cross-session variance.
 - For `normal` state, start with `_a` windows; use `_b` windows as same-episode repair/follow-up.
+- For repair replay, keep a tail buffer of 3-5 seconds after the target sentence to avoid truncating key line endings.
+
+## Subtitle reliability fallback rule
+- If requested English subtitles are not reliably rendered, switch repair to audio-only with explicit text anchors.
+- Mark that segment as `subtitle_reliability_warning` in log/notes to protect benchmark comparability.
+
+## Dual-track prebuild-first rule
+- Teacher line should finish package assets (manifest, anchors, snippets, fallbacks, correction map) before learner line starts.
+- Learner line only does minimal unblock operations; heavy extraction/prep should be backfilled in teacher line.
+
+## Anti-memorization switching rule
+- If learner reports "I remembered it, not heard it", immediately rotate to same-band unfamiliar fallback within the same lesson.
+- Keep one known-line confidence check, then spend remaining time on unfamiliar decoding to protect transfer quality.

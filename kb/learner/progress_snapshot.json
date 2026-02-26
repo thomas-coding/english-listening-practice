@@ -1,8 +1,8 @@
 {
   "version": "1.1",
   "schema_version": "2026-02-09-v1.1",
-  "last_updated": "2026-02-18",
-  "project_phase": "lesson_data_loop_active_after_lesson_3_pass17_ready",
+  "last_updated": "2026-02-26",
+  "project_phase": "lesson_data_loop_active_after_first_benchmark_miniset",
   "vision": "Understand ordinary YouTube videos without subtitles smoothly.",
   "learner": {
     "age": 42,
@@ -18,14 +18,15 @@
     "Stabilize no-sub first pass with short audio-only segments",
     "Consolidate high-frequency fixed expressions from sitcom bridge lessons",
     "Execute first benchmark mini-set with online/offline authentic routing",
-    "Accumulate first 5 real lesson logs for scheduler recalibration"
+    "Use first 6 real lesson logs for scheduler recalibration",
+    "Maintain package-first dual-track runtime to keep learner-side waiting low"
   ],
   "quality_status": {
     "anti_drift_enabled": true,
     "fixed_benchmark_suite_enabled": true,
     "regression_alert": false,
-    "last_benchmark_date": null,
-    "last_system_review": "2026-02-18",
+    "last_benchmark_date": "2026-02-20",
+    "last_system_review": "2026-02-26",
     "data_integrity_pending": false,
     "kb_health_score": 99
   },
@@ -35,20 +36,20 @@
     "notes": "Use play_media.py/find_youtube.py/extract_segment_subtitles.py as primary playback operations."
   },
   "metrics": {
-    "total_lessons_completed": 3,
-    "weekly_consistency_days": 1,
-    "latest_lesson_score": 68,
-    "rolling_7d_avg_score": 68,
+    "total_lessons_completed": 6,
+    "weekly_consistency_days": 2,
+    "latest_lesson_score": 80,
+    "rolling_7d_avg_score": 78,
     "top_weakness_tags": [
-      "opening_segment_decode_gap",
+      "long_sentence_decode_gap",
       "audio_only_decode_lag",
-      "fixed_expression_gap"
+      "opening_segment_decode_gap"
     ]
   },
   "next_actions": [
-    "Deliver lesson #4 with short no-sub audio windows and one bridge recap block",
-    "Run first benchmark mini-set after lesson #4 using pass17 pick set",
-    "Accumulate first 5 real lessons and recalibrate review scheduler"
+    "Run Pass #19 review scheduler recalibration using first 6 lesson logs",
+    "Run Pass #18 YouTube quality-tag upgrade for routing",
+    "Deliver lesson #7 from ready prebuilt package and capture wait-time friction notes"
   ],
   "deprecated_docs": [
     "archive/废弃_30天听力执行手册.md",

@@ -19,7 +19,13 @@
    - Else -> start directly with adaptive lesson.
 4. Pick state (`low`/`normal`/`high`) from latest evidence + quick warmup performance.
 5. Use confirm-before-playback flow for each segment.
-6. End with score + mandatory data writeback.
+6. In learner line, follow `kb/operations/dual_track_runtime.md` latency policy.
+7. End with score + mandatory data writeback.
+
+## Dual-track execution rule
+- Learner line (`开始我的学习`): prioritize continuity and low waiting time.
+- Teacher line (`你自己学下`): run heavy analysis/writeback and prebuild next lessons.
+- Prebuilt queue reference: `kb/operations/prebuilt_lessons_queue.md`.
 
 ## Startup phrase (recommended)
 - `加载导师知识库并进入教学模式`

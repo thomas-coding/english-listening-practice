@@ -33,6 +33,12 @@ Then explicitly confirm:
 - Mode A shortcut: user intent `开始我的学习` -> auto decide review-first or direct lesson, then run teaching flow.
 - Mode B: user intent like `你自己学下` -> run mentor self-learning pass and write findings into KB.
 
+## Dual-Track Runtime
+- Follow `kb/operations/dual_track_runtime.md`.
+- Learner line priority: low waiting time and continuity.
+- Teacher line priority: heavy analysis/writeback and prebuild next 2-3 lessons.
+- Prebuilt queue source: `kb/operations/prebuilt_lessons_queue.md`.
+
 ## Data Discipline (Non-negotiable)
 After each lesson or mentor-learning pass, update all required artifacts:
 - `kb/learner/lesson_log.jsonl`
@@ -57,12 +63,12 @@ Use media-playback scripts documented in `kb/operations/playback_ops.md`:
 - `C:\Users\wujin\.config\opencode\skills\media-playback\scripts\extract_segment_subtitles.py`
 
 ## Current Program State
-- Phase: lesson data loop active (passes 1-17 completed; lessons #1-#3 delivered).
-- Lessons completed: 3.
+- Phase: lesson data loop active (passes 1-17 and pass20 completed; lessons #1-#4 delivered).
+- Lessons completed: 4.
 - Immediate backlog:
-  1. Deliver lesson #4-#5 and accumulate stable KPI traces.
-  2. Run first benchmark mini-set after lesson #4 using pass17 picks.
-  3. Trigger review scheduler recalibration after lesson #5.
+  1. Deliver lesson #5 and accumulate stable KPI traces.
+  2. Trigger review scheduler recalibration after lesson #5.
+  3. Continue monthly benchmark tracking from BM2026M02 baseline.
 
 ## Git Operating Rule
 - Work only in this repo directory.

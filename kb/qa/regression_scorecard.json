@@ -1,6 +1,43 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-02-09",
+  "version": "1.1",
+  "last_updated": "2026-02-20",
   "regression_alert": false,
-  "monthly_records": []
+  "monthly_records": [
+    {
+      "period": "2026-02",
+      "record_type": "benchmark_mini_set_baseline",
+      "benchmark_id": "BM2026M02_first",
+      "layers": {
+        "controlled": {
+          "task_id": "C1",
+          "gist_accuracy": 0.4,
+          "detail_capture_rate": 0.33,
+          "recap_quality": 2.0,
+          "status": "recovered_after_repair"
+        },
+        "bridge": {
+          "task_id": "B1",
+          "gist_accuracy": 0.2,
+          "detail_capture_rate": 0.17,
+          "recap_quality": 1.8,
+          "status": "low_first_pass_recovered"
+        },
+        "authentic": {
+          "task_id": "A1_proxy_local",
+          "gist_accuracy": 0.25,
+          "detail_capture_rate": 0.25,
+          "recap_quality": 2.0,
+          "status": "low_first_pass_recovered"
+        }
+      },
+      "overall": {
+        "gist_accuracy": 0.28,
+        "detail_capture_rate": 0.25,
+        "no_subtitle_robustness_score": 36,
+        "error_correction_count": 8
+      },
+      "trend_direction": "baseline_set",
+      "notes": "First mini-set baseline only; no month-over-month regression comparison yet."
+    }
+  ]
 }

@@ -18,7 +18,12 @@
 10. `kb/operations/gap_handling_rules.md`
 
 ## Current project status
-- Phase: `lesson data loop active (passes 1-17 completed; lessons #1-#3 done)`
-- Next action: deliver lesson #4, then run first benchmark mini-set with pass17 picks.
+- Phase: `lesson data loop active (passes 1-17 and pass20 completed; lessons #1-#4 done)`
+- Next action: deliver lesson #5, then recalibrate review scheduler and continue benchmark tracking.
 - Quality mode: `anti-drift and regression checks enabled`
 - System maturity note: `material intelligence is ready for execution; KPI/review loop has started`
+
+## Runtime policy
+- Dual-track mode enabled:
+  - Learner line: fast interaction and low waiting.
+  - Teacher line: heavy writeback + prebuild next lessons.

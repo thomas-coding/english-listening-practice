@@ -24,6 +24,6 @@
 - No-subtitle confidence (0-5 self-report + mentor score).
 
 ## Baseline state
-- No benchmark completed yet.
-- Mini-set picks are prepared in `kb/qa/benchmark_mini_set_picks_pass17.md`.
-- First benchmark should run after lesson #4 (first post-gap stabilization lesson).
+- First benchmark mini-set baseline completed: `BM2026M02_first`.
+- Baseline scores are recorded in `kb/qa/regression_scorecard.json`.
+- Next benchmark action: keep same task family for comparability and measure month-over-month delta.

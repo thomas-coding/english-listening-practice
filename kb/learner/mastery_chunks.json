@@ -1,10 +1,10 @@
 {
-  "version": "1.3",
-  "last_updated": "2026-02-18",
+  "version": "1.5",
+  "last_updated": "2026-02-26",
   "stats": {
     "stable": 0,
-    "building": 6,
-    "new": 5
+    "building": 9,
+    "new": 14
   },
   "items": [
     {
@@ -105,6 +105,114 @@
       "last_seen": "2026-02-18",
       "next_review": "2026-02-19",
       "usage_success_count": 0
+    },
+    {
+      "chunk": "Our school doesn't give out grades",
+      "function": "policy_statement",
+      "source": "FOTB S01E02 03:35-04:05",
+      "status": "building",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-03-01",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "chip in and pay their bill",
+      "function": "cost_sharing",
+      "source": "FOTB S01E02 16:03-16:18",
+      "status": "new",
+      "last_seen": "2026-02-19",
+      "next_review": "2026-02-21",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "cover their check",
+      "function": "offer_payment",
+      "source": "FOTB S01E02 16:03-16:18",
+      "status": "new",
+      "last_seen": "2026-02-19",
+      "next_review": "2026-02-20",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "he's a great boss",
+      "function": "positive_evaluation",
+      "source": "FOTB S01E02 16:15-16:22",
+      "status": "new",
+      "last_seen": "2026-02-19",
+      "next_review": "2026-02-21",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "how does next Monday work for you",
+      "function": "scheduling_offer",
+      "source": "EnglishPod B0023 01:41-01:56",
+      "status": "new",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-02-27",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "can she do Tuesday",
+      "function": "reschedule_request",
+      "source": "EnglishPod B0023 01:41-01:56",
+      "status": "new",
+      "last_seen": "2026-02-20",
+      "next_review": "2026-02-21",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "Have you met Ashley",
+      "function": "social_introduction",
+      "source": "DH S01E03 14:31-15:05",
+      "status": "building",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-03-01",
+      "usage_success_count": 3
+    },
+    {
+      "chunk": "She's shy. She doesn't say much",
+      "function": "personality_description",
+      "source": "DH S01E03 14:31-15:05",
+      "status": "building",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-03-01",
+      "usage_success_count": 2
+    },
+    {
+      "chunk": "They just moved into the Millers' old house",
+      "function": "relocation_update",
+      "source": "DH S01E03 14:31-15:20",
+      "status": "new",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-02-27",
+      "usage_success_count": 0
+    },
+    {
+      "chunk": "Nobody blocked my shots",
+      "function": "sports_taunt",
+      "source": "FOTB S01E02 19:22-19:30",
+      "status": "new",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-02-27",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "I guess I could wait",
+      "function": "tentative_concession",
+      "source": "FOTB S01E02 19:44-19:52",
+      "status": "new",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-02-27",
+      "usage_success_count": 1
+    },
+    {
+      "chunk": "Looks like we'll be going for academic scholarships",
+      "function": "future_academic_projection",
+      "source": "FOTB S01E02 19:58-20:06",
+      "status": "new",
+      "last_seen": "2026-02-26",
+      "next_review": "2026-02-27",
+      "usage_success_count": 1
     }
   ]
 }

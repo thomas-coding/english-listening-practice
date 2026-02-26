@@ -6,6 +6,13 @@
   - `kb/operations/gap_handling_rules.md`
 - User does not need to provide stage/state/material choice.
 
+## Runtime policy
+- Learner line must follow `kb/operations/dual_track_runtime.md`.
+- Prefer prebuilt lesson assets from `kb/operations/prebuilt_lessons_queue.md` to reduce wait time.
+- Defer heavy backend tasks to teacher line unless they are required to unblock the live segment.
+- Before playback starts, load a prebuilt package (clip manifest + anchor sheet + subtitle snippets + fallbacks).
+- If package is incomplete, do only minimal unblock actions in class and record missing prep for teacher-line backfill.
+
 ## Step 0: Pick lesson state blueprint
 - Before starting, select `low` / `normal` / `high` using:
   - `kb/operations/lesson_blueprints_state_based.md`

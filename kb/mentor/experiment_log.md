@@ -32,3 +32,21 @@
 - Intervention: Added fixed mini-set picks for controlled/bridge/authentic layers and defined local proxy fallback for YouTube instability.
 - Evidence: New picks file + rehearsal protocol updates now provide executable paths for both online and offline constraints.
 - Decision: Run first benchmark mini-set after lesson #4 using this pick set and log scorecard baseline.
+
+### 2026-02-20 (Pass #20)
+- Hypothesis: Running the first benchmark mini-set after lesson #4 will expose true no-sub baseline and sharpen lesson #5 priorities.
+- Intervention: Executed C1/B1/A1 mini-set with no-sub first pass and targeted repair.
+- Evidence: Scorecard baseline recorded (`BM2026M02_first`), showing low first-pass robustness with consistent repair recovery.
+- Decision: Route lesson #5 toward opening-turn binding and dialogue-only decode; keep benchmark continuity from this baseline.
+
+### 2026-02-20 (Ops refinement)
+- Hypothesis: Explicit dual-track runtime and prebuilt lesson queue will reduce learner waiting and improve session continuity.
+- Intervention: Added learner-line latency policy, teacher-line heavy-task policy, and prebuilt queue for lessons #5-#7.
+- Evidence: Runtime policy is now documented and linked by intent map/protocol/agents handoff.
+- Decision: Keep this as default operating model and monitor learner-line wait-time friction in issue log.
+
+### 2026-02-26 (Pass #23)
+- Hypothesis: If teacher line prepares complete package assets before class, learner-line 30-minute sessions will stay smooth and avoid clip-cut mistakes.
+- Intervention: Rebuilt upcoming lessons #7-#9 into package files with clip manifest, anchor timestamps (+/-4s), subtitle snippets, fallbacks, and correction guides.
+- Evidence: Added `lesson_0007_package.md`, `lesson_0008_package.md`, and `lesson_0009_package.md`; updated queue to consume only `ready` packages.
+- Decision: Keep package-first teacher-line flow as default and run Pass #19 recalibration before delivering lesson #7.

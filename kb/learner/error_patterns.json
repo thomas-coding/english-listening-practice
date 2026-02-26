@@ -1,17 +1,19 @@
 {
-  "version": "1.3",
-  "last_updated": "2026-02-18",
+  "version": "1.5",
+  "last_updated": "2026-02-26",
   "patterns": [
     {
       "pattern_id": "ep_opening_multi_speaker_miss",
       "type": "linking_miss",
       "examples": [
         "FOTB S01E05 10:00-10:25 opening dialogue mostly missed in no-sub first pass.",
-        "FOTB S02E01 09:30-09:55 first-pass opening remained largely unclear in no-sub mode."
+        "FOTB S02E01 09:30-09:55 first-pass opening remained largely unclear in no-sub mode.",
+        "FOTB S01E02 03:00-03:35 first pass captured only isolated tags ('rainbow/clouds') without full turn flow.",
+        "FOTB S01E02 03:00-03:20 reopening pass needed slowdown before sentence binding stabilized."
       ],
-      "count_total": 2,
-      "count_last_30d": 2,
-      "last_seen": "2026-02-09",
+      "count_total": 4,
+      "count_last_30d": 4,
+      "last_seen": "2026-02-26",
       "priority": "high"
     },
     {
@@ -41,22 +43,26 @@
       "type": "vocab_gap",
       "examples": [
         "local call and room service meanings were unclear before guided repair; formulaic phrases not yet consolidated.",
-        "as long as you don't mind was not recalled independently in reactivation first pass."
+        "as long as you don't mind was not recalled independently in reactivation first pass.",
+        "check/chip in meaning needed explicit repair before full scene interpretation in FOTB S01E02.",
+        "booked solid and schedule-shift chunks in EnglishPod B0023 required calibrated replay to stabilize."
       ],
-      "count_total": 2,
-      "count_last_30d": 2,
-      "last_seen": "2026-02-18",
+      "count_total": 4,
+      "count_last_30d": 4,
+      "last_seen": "2026-02-20",
       "priority": "high"
     },
     {
       "pattern_id": "ep_audio_only_decode_lag",
       "type": "linking_miss",
       "examples": [
-        "FOTB S02E01 17:40-18:20 audio-only first pass: mostly isolated words, weak sentence binding."
+        "FOTB S02E01 17:40-18:20 audio-only first pass: mostly isolated words, weak sentence binding.",
+        "FOTB S01E02 15:38-16:10 audio-only first pass: one keyword ('got it') without full turn logic.",
+        "Benchmark B1 (FOTB S01E01 14:00-15:20) first pass had fragmented tags but weak coherent storyline."
       ],
-      "count_total": 1,
-      "count_last_30d": 1,
-      "last_seen": "2026-02-18",
+      "count_total": 3,
+      "count_last_30d": 3,
+      "last_seen": "2026-02-20",
       "priority": "high"
     },
     {
@@ -80,6 +86,40 @@
       "count_last_30d": 1,
       "last_seen": "2026-02-18",
       "priority": "medium"
+    },
+    {
+      "pattern_id": "ep_isolated_keyword_without_turn_logic",
+      "type": "inference_gap",
+      "examples": [
+        "In FOTB S01E02 15:38-16:10, learner captured a keyword ('got it') but could not bind speaker intent until repair pass."
+      ],
+      "count_total": 1,
+      "count_last_30d": 1,
+      "last_seen": "2026-02-19",
+      "priority": "medium"
+    },
+    {
+      "pattern_id": "ep_proper_name_decode_gap",
+      "type": "linking_miss",
+      "examples": [
+        "In DH S01E03 benchmark repair, 'Ashley' was heard as 'ashy' before semantic alignment.",
+        "In DH S01E03 14:31-15:20 lesson pass, 'Ashley' was again rendered as 'ashy' before guided correction."
+      ],
+      "count_total": 2,
+      "count_last_30d": 2,
+      "last_seen": "2026-02-26",
+      "priority": "medium"
+    },
+    {
+      "pattern_id": "ep_long_sentence_decode_gap",
+      "type": "linking_miss",
+      "examples": [
+        "In FOTB S01E02 19:52-20:22, final 30s sprint collapsed to isolated tag ('oh right') before targeted sentence anchoring repair."
+      ],
+      "count_total": 1,
+      "count_last_30d": 1,
+      "last_seen": "2026-02-26",
+      "priority": "high"
     }
   ]
 }

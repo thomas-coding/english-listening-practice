@@ -35,6 +35,8 @@
 - [x] Create 30-min lesson blueprints for low/normal/high state days.
 - [x] Build adaptive test bank (quick 3-min, 10-min, 20-min checks).
 - [x] Build review scheduler baseline rules (v0) and set post-5-lesson recalibration trigger.
+- [x] Enable dual-track runtime policy and prebuilt lesson queue for low-wait learner flow.
+- [x] Standardize teacher-line prebuild package with ready gate (manifest + anchors + snippets + fallbacks).
 
 ## Phase 4: YouTube transfer system
 - [x] Define channel/topic progression ladder.
@@ -45,12 +47,16 @@
 
 ## Phase 5: Benchmark readiness
 - [x] Prepare benchmark mini-set picks after first lesson evidence.
+- [x] Run first benchmark mini-set after lesson #4.
 
 ## Pass backlog (next 4 passes)
 1. Pass #18: add YouTube clip quality tags for routing (`accent`, `speaker_count`, `subtitle_reliability`).
-2. Pass #19: recalibrate review scheduler after first 5 real lessons.
-3. Pass #20: run first benchmark mini-set after lesson #4.
-4. Pass #21: tune benchmark-to-lesson feedback loop from first mini-set evidence.
+2. Pass #19: recalibrate review scheduler after first 6 real lessons.
+3. Pass #21: tune benchmark-to-lesson feedback loop from first mini-set evidence.
+4. Pass #22: build subtitle-stream lock checks for benchmark repair reliability.
+
+## Recent mentor-learning writeback
+- 2026-02-26 (Pass #23): rebuilt lesson packages #7-#9 with clip manifest, anchor timestamps, pre-extracted subtitle snippets, fallback windows, and correction guides.
 
 ## Next mentor-learning pass trigger
 - User says: "你自己学下" or equivalent.
